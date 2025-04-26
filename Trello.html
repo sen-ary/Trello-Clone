@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./jquery-3.7.1.js"></script>
+    <script src="./jquery-ui.js"></script>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./anseki-leader-line-34f59be/leader-line.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./jquery-ui.css">
+    <link rel="stylesheet" href="./anseki-leader-line-34f59be/src/leader-line.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid h-100">
+        <div class="row bg-black text-white">
+            <h1 class="col-12 p-3">Task Manager App</h1>
+        </div>
+        <!-- Content -->
+        <div class="row h-100">
+            <!-- SideBar -->
+             <aside class="col-2 bg-success text-white flex-column">
+                <div class="row">
+                    <h4 class="col-12 p-3">
+                        Projects
+                    </h4>
+                </div>
+
+                <div class="row">
+                    <ul class="col-10 mx-auto list-unstyled h-100" id="workFlowslist">
+                        <li class="rounded bg-secondary p-2">+ New Project</li>
+                    </ul>
+                </div>
+             </aside>
+            <!-- WorkFlows -->
+            <div class="col-10" id="workFlow">
+                <button id="add-workflow-fab" class="btn btn-primary rounded-circle" type="button">
+                    <img src="./plus.svg" alt="" class="w-100">
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+}
+
+#workFlowslist li:last-child:hover{
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.card-header h5{
+    cursor: pointer;
+}
+
+.WorkFlowCard ul li:last-child:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+
+#add-workflow-fab {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1050;
+  }
+  
+  /* Optional hover effect */
+  #add-workflow-fab:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s;
+  }
